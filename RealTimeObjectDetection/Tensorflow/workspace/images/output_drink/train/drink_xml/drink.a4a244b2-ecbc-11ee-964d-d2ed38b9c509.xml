@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>drink.a4a244b2-ecbc-11ee-964d-d2ed38b9c509.jpg</filename>
+	<path>/Users/denzelshemaiah/LiveStream/RealTimeObjectDetection/Tensorflow/workspace/images/collectedimages/drink.a4a244b2-ecbc-11ee-964d-d2ed38b9c509.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>drink</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>847</xmin>
+			<ymin>246</ymin>
+			<xmax>1042</xmax>
+			<ymax>435</ymax>
+		</bndbox>
+	</object>
+</annotation>

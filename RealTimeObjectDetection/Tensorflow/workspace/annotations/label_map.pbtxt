@@ -1,0 +1,16 @@
+item { 
+	name:'drink'
+	id:1
+}
+item { 
+	name:'eat'
+	id:2
+}
+item { 
+	name:'finish'
+	id:3
+}
+item { 
+	name:'give'
+	id:4
+}

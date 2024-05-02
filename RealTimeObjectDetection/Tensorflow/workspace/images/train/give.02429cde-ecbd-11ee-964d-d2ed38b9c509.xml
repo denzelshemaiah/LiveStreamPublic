@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>give.02429cde-ecbd-11ee-964d-d2ed38b9c509.jpg</filename>
+	<path>/Users/denzelshemaiah/LiveStream/RealTimeObjectDetection/Tensorflow/workspace/images/collectedimages/give.02429cde-ecbd-11ee-964d-d2ed38b9c509.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>give</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>199</xmin>
+			<ymin>570</ymin>
+			<xmax>1102</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>
