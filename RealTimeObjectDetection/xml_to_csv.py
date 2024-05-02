@@ -14,17 +14,29 @@ def xml_to_csv(path):
                      int(root.find('size')[0].text),
                      int(root.find('size')[1].text),
                      member[0].text,
+                     class_text_to_int(member[0].text),
                      int(member[4][0].text),
                      int(member[4][1].text),
                      int(member[4][2].text),
                      int(member[4][3].text)
                      )
             xml_list.append(value)
-    column_name = ['filename', 'width', 'height', 'class', 'xmin', 'ymin', 'xmax', 'ymax']
+    column_name = ['filename', 'width', 'height', 'class', 'int_class', 'xmin', 'ymin', 'xmax', 'ymax']
     xml_df = pd.DataFrame(xml_list, columns=column_name)
     print("print")
     return xml_df
 
+def class_text_to_int(row_label):
+    if row_label == 'drink':
+        return 1
+    elif row_label == 'eat':
+        return 2
+    elif row_label == 'finish':
+        return 3
+    elif row_label == 'give':
+        return 4
+    else:
+        None
 
 def main():
     for directory in ['train','test']:
